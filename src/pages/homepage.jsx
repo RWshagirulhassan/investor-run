@@ -503,7 +503,7 @@ function HomePage() {
         ref={rollerRef}
         src={rollerImage}
         alt="roller"
-        className="fixed lg:-bottom-[100vh] -bottom-[50vh]  lg:left-[15vw] -left-[20vw] max-w-[140vw] lg:max-w-[70vw] opacity-0 translate-y-full z-[20] !origin-center"
+        className="fixed lg:-bottom-[80vh] -bottom-[50vh]  lg:left-[20vw] -left-[20vw] max-w-[140vw] lg:max-w-[60vw] opacity-0 translate-y-full z-[20] !origin-center"
       />
 
       {[
@@ -592,7 +592,7 @@ function HomePage() {
                     src={card.img}
                     className="aspect-square lg:min-w-[26%] max-w-[50%] min-w-[40%]  rounded-3xl"
                   ></img>
-                  <p className="text-white font-light lg:text-2xl text-sm text-center lg:text-start">
+                  <p className="text-white font-light lg:text-[1.4em] leading-[1.4em] text-sm text-center lg:text-start">
                     {card.subtitle}
                   </p>
                 </div>
