@@ -720,10 +720,15 @@ function HomePage() {
           © 2015 - 2024 readywealth. Designed and developed by readywealth
         </p>
         <div className="flex gap-8 ">
-          <Instagram />
-          <Youtube />
-
-          <Facebook />
+          <div className="min-w-[64px] min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-3">
+            <Instagram className="max-w-[27px] max-h-[27px] " color="white" />
+          </div>
+          <div className="min-w-[64px] min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-3">
+            <Youtube className="max-w-[27px] max-h-[27px] " color="white" />
+          </div>
+          <div className="min-w-[64px] min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-3">
+            <Facebook className="max-w-[27px] max-h-[27px] " color="white" />
+          </div>
         </div>
       </div>
     </div>
