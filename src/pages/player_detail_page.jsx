@@ -15,44 +15,6 @@ import sal from "../../public/images/character/sal.png";
 
 import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-// Zen
-// Zen ignites the financial freedom race, dashing past expenses and gathering assets. Equipped with a digital ledger and investment blueprints, each calculated leap builds passive income to outpace inflation’s surge.
-
-// Luna
-// Luna sprints beside Zen, her analytical reflexes slicing through economic pitfalls. With keen insight and swift maneuvers, she uncovers hidden assets and neutralizes fees, fueling her passive‐income engine against rising costs.
-
-// NewZen
-// NewZen injects youthful energy into seasoned strategy. Sporting tech-enhanced gear, he times market swings on the run—buying low, selling high—and leverages daring agility to grow passive streams despite inflationary headwinds.
-
-// NewLuna
-// NewLuna fuses creativity with precision. Using intuitive finance apps and pattern-recognition tools, she spots undervalued opportunities, turbocharging her passive income with every vault and slide to defy inflation’s pressure.
-
-// Gwen
-// Gwen moves like a shadow, methodically collecting micro-investments and high-yield bonds others miss. Her steady pace and patient strategy transform small gains into robust income buffers against creeping inflation.
-
-// Drucilia
-// Drucilia, “The Witch,” wields contrarian spells and derivative charms on the track. She turns liabilities into assets with daring vaults, brewing a passive-income cauldron that wards off the curse of rising costs.
-
-// Amelia
-// Amelia, the EgyptQueen, merges ancient wealth wisdom with modern tactics. Draped in hieroglyph-inspired attire, she stacks real-estate scrolls and commodities, constructing a passive-income pyramid to counter inflation’s desert winds.
-
-// Melon Tusk
-// Melon Tusk, the crypto futurist, rides blockchain volatility in high-top sneakers. Armed with a hardware wallet and token roadmaps, he leaps obstacles with yield farming and NFTs, carving a digital-wealth frontier.
-
-// MJ
-// MJ, the market juggernaut, combines athletic prowess with dividend mastery. Clad in performance gear etched with tickers, she rotates sectors and captures payouts, transforming inflation’s gauntlet into her personal relay.
-
-// Sal
-// Sal, “Hotb,” reigns over blue-chip fields in a bomber jacket of equity charts. He harvests dividends and sidesteps margin calls, reinforcing his passive-income fortress against inflation’s heat.
-
-// Chubbs
-// Chubbs, the resilient underdog, hoards micro-loans and community bonds in a bursting backpack. His tenacious maneuvers turn modest yields into significant gains, showcasing grassroots investing’s power over inflationary storms.
-
-// Natalia
-// Natalia trades cubicle spreadsheets for sprint tracks in business attire. Armed with financial dashboards and REIT portfolios, she vaults corporate traps and funds her passive streams to outpace rising expenses.
-
-// Mansa Musa
-// Mansa Musa, reborn legend, carries a golden satchel of bullion, art, and rare assets. His regal stride and strategic philanthropy build an empire of passive income that eclipses any inflationary tide.
 
 export const players = [
   {
@@ -89,19 +51,19 @@ export const players = [
     img: masna_musa,
     name: "mansa musa",
     rate: 50000,
-    bio: "Zen launches the race for financial freedom, sprinting past obstacles and seizing every asset. With unwavering focus, he dodges expenses and transforms risks into opportunities. Armed with smart investments and keen insight, his every step builds a passive income shield against inflation. Zen embodies the bold spirit of a true financial pioneer, blazing a path toward lasting wealth. -relentless!!!",
+    bio: "Mansa Musa, reborn legend, carries a golden satchel of bullion, art, and rare assets. His regal stride and strategic philanthropy build an empire of passive income that eclipses any inflationary tide",
   },
   {
     img: mj,
     name: "mj",
     rate: 50000,
-    bio: "Character 2 description goes here. This character is known for their unique abilities and strengths in the game.",
+    bio: "MJ, the market juggernaut, combines athletic prowess with dividend mastery. Clad in performance gear etched with tickers, she rotates sectors and captures payouts, transforming inflation’s gauntlet into her personal relay",
   },
   {
     img: natalia,
     name: "natasha",
     rate: 50000,
-    bio: "zen description goes here. This character is known for their unique abilities and strengths in the game.",
+    bio: "Natalia trades cubicle spreadsheets for sprint tracks in business attire. Armed with financial dashboards and REIT portfolios, she vaults corporate traps and funds her passive streams to outpace rising expenses",
   },
   {
     img: ruby,
@@ -113,7 +75,7 @@ export const players = [
     img: sal,
     name: "sal",
     rate: 50000,
-    bio: "zen description goes here. This character is known for their unique abilities and strengths in the game.",
+    bio: "Sal, “Hotb,” reigns over blue-chip fields in a bomber jacket of equity charts. He harvests dividends and sidesteps margin calls, reinforcing his passive-income fortress against inflation’s heat.",
   },
 ];
 export default function PlayerDetailPage() {
@@ -135,12 +97,6 @@ export default function PlayerDetailPage() {
     "bg-teal-500",
     "bg-orange-500",
   ];
-
-  // Assign a random color to each player (consistent across renders)
-  // const playerColors = players.map(() => {
-  //   const randomIndex = Math.floor(Math.random() * themeColors.length);
-  //   return themeColors[randomIndex];
-  // });
 
   return (
     <div className="relative ">

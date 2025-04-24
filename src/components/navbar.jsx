@@ -39,7 +39,7 @@ export default function Navbar() {
                1px  1px 0 #ffffff60
             `,
           }}
-          className="text-[1.4vw] font-bold "
+          className="text-[1.4vw] font-bold cursor-pointer "
         >
           How to Play
         </text>
@@ -54,7 +54,7 @@ export default function Navbar() {
        1px  1px 0 #ffffff60
     `,
           }}
-          className="text-[1.4vw] font-bold "
+          className="text-[1.4vw] font-bold cursor-pointer"
         >
           Characters
         </text>
@@ -69,7 +69,7 @@ export default function Navbar() {
        1px  1px 0 #ffffff60
     `,
           }}
-          className="text-[1.4vw] font-bold "
+          className="text-[1.4vw] font-bold cursor-pointer"
         >
           Spin and wheel
         </text>

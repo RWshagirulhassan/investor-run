@@ -18,7 +18,7 @@ const CoverflowSwiper = ({ cards = [], className = "", loop = true }) => {
 
   return (
     <div
-      className={`z-[1000] relative w-full max-w-7xl mx-auto px-4 md:px-8 py-8 ${className}`}
+      className={`z-[1000] relative w-full  mx-auto px-4 md:px-8 py-8 ${className}`}
     >
       {/* Custom Navigation Buttons */}
       <div className="absolute z-20 -bottom-20 left-1/2 -translate-x-1/2 flex  bg-[#3a558f] rounded-full px-1 gap-2 border-[2px] border-yellow-500">
@@ -99,12 +99,12 @@ const CoverflowSwiper = ({ cards = [], className = "", loop = true }) => {
                   navigate("/detail", { state: { selectedIndex: index } });
                 }}
                 // to="/detail"
-                className="min-h-[42.2vh]  min-w-full flex h-full w-full grow-0  relative"
+                className="min-h-[42.2vh]  min-w-full flex h-full w-full grow-0  relative bg-[radial-gradient(circle,_#375FFF,_#22388D)]"
               >
-                <img
+                {/* <img
                   className="w-full h-full absolute object-contain "
                   src={playercardbg}
-                ></img>
+                ></img> */}
                 <img
                   className="w-full h-full absolute object-contain top-[10vh]"
                   src={card.img}
