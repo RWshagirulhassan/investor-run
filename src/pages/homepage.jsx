@@ -21,6 +21,7 @@ import Card from "../components/card";
 import CoverflowSwiper from "../components/carousel";
 import video from "../assets/bgvideo.mp4";
 import { Facebook, Instagram, Youtube } from "lucide-react";
+import goal from "../../public/images/infocard/goal.png";
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 export let homepageScrollTrigger = null;
@@ -506,7 +507,7 @@ function HomePage() {
                     maintaining positive cash flow.`,
           title: `TRACK & GOAL`,
           color: "#196FB8",
-          img: "../../public/images/infocard/goal.png",
+          img: goal,
         },
         {
           ref: infocard2Ref,
