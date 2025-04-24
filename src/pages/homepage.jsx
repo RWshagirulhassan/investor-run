@@ -91,7 +91,7 @@ function HomePage() {
         end: "bottom bottom",
         scrub: true,
         pin: true,
-        // markers: true,
+        pinSpacing: false,
         id: "main-scroll",
       },
     });
@@ -503,7 +503,7 @@ function HomePage() {
         ref={rollerRef}
         src={rollerImage}
         alt="roller"
-        className="fixed lg:-bottom-[100vh] -bottom-[50vh]  lg:left-[10vw] -left-[20vw] max-w-[140vw] lg:max-w-[80vw] opacity-0 translate-y-full z-[20] !origin-center"
+        className="fixed lg:-bottom-[100vh] -bottom-[50vh]  lg:left-[15vw] -left-[20vw] max-w-[140vw] lg:max-w-[70vw] opacity-0 translate-y-full z-[20] !origin-center"
       />
 
       {[
@@ -542,7 +542,7 @@ function HomePage() {
           subtitle: `Hitting physical obstacles like trucks or walls can cost you 40% of your net worth. Stay sharp to avoid them!`,
           title: ` Dodge Them`,
           color: "#FF6347",
-          img: salary,
+          img: obstacle,
         },
         {
           ref: infocard6Ref,
@@ -568,17 +568,18 @@ function HomePage() {
       ].map((card, index) => (
         <div
           key={index}
-          className="  fixed lg:-bottom-[45vh] -bottom-[55vh] lg:left-[26vw]  left-[15vw] scale-50 z-[15]"
+          className="  fixed lg:-bottom-[55vh] -bottom-[55vh] -translate-x-1/2 left-[50%]  scale-50 z-[15]"
           ref={card.ref}
         >
+          {/* lg:left-[26vw]  left-[15vw] */}
           <Card
             backgroundColor={card.color}
-            className="  lg:max-w-[46vw] max-w-[70vw] border-[#13286a] rounded-3xl min-h-[50vh] lg:min-h-[30vh] "
+            className="  lg:max-w-[800px] max-w-[70vw] border-[#13286a] rounded-3xl min-h-[50vh] lg:min-h-[30vh] "
             shadowColor="#2a5cbc"
             Children={
-              <div className="w-full flex flex-col py-[1vh] justify-center  gap-[3vh] items-center">
+              <div className="w-full flex flex-col py-[1vh] justify-center  gap-[2vh] items-center">
                 <p
-                  className="font-black lg:text-[3rem]  text-3xl text-white w-full text-center uppercase"
+                  className="font-black lg:text-[2rem]  text-3xl text-white w-full text-center uppercase"
                   style={{
                     WebkitTextStroke: "2px #000000",
                     textShadow: "0 4px 0 black",
@@ -589,7 +590,7 @@ function HomePage() {
                 <div className="flex lg:gap-[5%] gap-[2vh] lg:flex-row flex-col items-center justify-center ">
                   <img
                     src={card.img}
-                    className="aspect-square lg:min-w-[36%] max-w-[80%] min-w-[40%]  rounded-3xl"
+                    className="aspect-square lg:min-w-[26%] max-w-[50%] min-w-[40%]  rounded-3xl"
                   ></img>
                   <p className="text-white font-light lg:text-2xl text-sm text-center lg:text-start">
                     {card.subtitle}
