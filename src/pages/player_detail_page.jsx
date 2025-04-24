@@ -87,7 +87,7 @@ export const players = [
   },
   {
     img: masna_musa,
-    name: "masna musa",
+    name: "mansa musa",
     rate: 50000,
     bio: "Zen launches the race for financial freedom, sprinting past obstacles and seizing every asset. With unwavering focus, he dodges expenses and transforms risks into opportunities. Armed with smart investments and keen insight, his every step builds a passive income shield against inflation. Zen embodies the bold spirit of a true financial pioneer, blazing a path toward lasting wealth. -relentless!!!",
   },
