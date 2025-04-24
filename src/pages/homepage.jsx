@@ -22,6 +22,13 @@ import CoverflowSwiper from "../components/carousel";
 import video from "../assets/bgvideo.mp4";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import goal from "../../public/images/infocard/goal.png";
+import inflation from "../../public/images/infocard/inflation.png";
+import assets from "../../public/images/infocard/assets.png";
+import expenses from "../../public/images/infocard/expenses.png";
+import financialfreedom from "../../public/images/infocard/financialfreedom.png";
+import lottery from "../../public/images/infocard/lottery.png";
+import obstacle from "../../public/images/infocard/obstacle.png";
+import salary from "../../public/images/infocard/salary.png";
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 export let homepageScrollTrigger = null;
@@ -514,49 +521,49 @@ function HomePage() {
           subtitle: `Inflation ticks every 4.5 seconds, gradually decreasing your savings. Keep up by investing wisely!`,
           title: `Time is Money`,
           color: "#E44400",
-          img: "../../public/images/infocard/inflation.png",
+          img: inflation,
         },
         {
           ref: infocard3Ref,
           subtitle: `Buy assets like Gold, Real Estate, Mutual Funds and Fixed Deposit. Each asset generates passive income that adds to your wealth every cycle.`,
           title: ` Passive Income`,
           color: "#00C458",
-          img: "../../public/images/infocard/assets.png",
+          img: assets,
         },
         {
           ref: infocard4Ref,
           subtitle: `Watch out for expenses in red. If you hit them, they’ll decrease your net worth and impact your financial progress.`,
           title: ` Avoid the Red GLow`,
           color: "#FF9E30",
-          img: "../../public/images/infocard/expenses.png",
+          img: expenses,
         },
         {
           ref: infocard5Ref,
           subtitle: `Hitting physical obstacles like trucks or walls can cost you 40% of your net worth. Stay sharp to avoid them!`,
           title: ` Dodge Them`,
           color: "#FF6347",
-          img: "../../public/images/infocard/salary.png",
+          img: salary,
         },
         {
           ref: infocard6Ref,
           subtitle: `Collect all 3 files in each cycle to secure your job. Miss one, and you're warned. Miss all three, and you lose your job. To get it back, collect the special bag in the next cycle.`,
           title: ` Keep an eye for files`,
           color: "#FDD907",
-          img: "../../public/images/infocard/financialfreedom.png",
+          img: financialfreedom,
         },
         {
           ref: infocard7Ref,
           subtitle: `Balance your income, assets, and expenses to maintain positive cash flow. Collect your salary, avoid obstacles, and secure your financial future!`,
           title: ` gET OUT OF RAT RACE`,
           color: "#50E48C",
-          img: "../../public/images/infocard/goal.png",
+          img: goal,
         },
         {
           ref: infocard8Ref,
           subtitle: `Whenever you collect a lottery ticket, you'll need to choose a random number from a set of 4. Pick the correct number to win the lottery.`,
           title: ` High risk high reward`,
           color: "#05FEDE",
-          img: "../../public/images/infocard/lottery.png",
+          img: lottery,
         },
       ].map((card, index) => (
         <div
