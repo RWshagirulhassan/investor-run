@@ -112,13 +112,7 @@ const CoverflowSwiper = ({ cards = [], className = "", loop = true }) => {
                 <text className="top-[5vh] left-[2vw] absolute object-contain font-black text-5xl text-white">
                   {card.name}
                 </text>
-                <div
-                  // to="/detail"
-                  // onClick={() => {
-                  //   console.log("clicked");
-                  // }}
-                  className="text-black absolute right-[3vw] top-[3vh] cursor-pointer"
-                >
+                <div className="text-black absolute right-[3vw] top-[3vh] cursor-pointer">
                   <svg
                     width="108"
                     height="108"

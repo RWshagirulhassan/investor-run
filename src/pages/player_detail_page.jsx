@@ -246,7 +246,7 @@ export default function PlayerDetailPage() {
                 />
               </svg>
             </button>
-            <div className="flex  gap-[30px] overflow-scroll max-w-[80%]">
+            <div className="flex  gap-[30px] overflow-scroll max-w-[80%] hide-scrollbar">
               {players.map((cha, i) => {
                 return (
                   <button
