@@ -166,7 +166,7 @@ function HomePage() {
         // rotate: 360, // or "30deg"
         transformOrigin: "50% 50%",
         force3D: true,
-        y: "80%",
+        y: "-20%",
         opacity: 1,
         duration: 0.01,
       },
@@ -503,7 +503,7 @@ function HomePage() {
         ref={rollerRef}
         src={rollerImage}
         alt="roller"
-        className="fixed lg:bottom-[20vh] bottom-[20vh]  lg:left-[20vw] -left-[20vw] max-w-[140vw] lg:max-w-[60vw] opacity-0 translate-y-full z-[20] !origin-center"
+        className="fixed lg:-bottom-[90%] -bottom-[50%]  lg:left-[20vw] -left-[20vw] max-w-[140vw] lg:max-w-[60vw] opacity-0 translate-y-full z-[20] !origin-center"
       />
 
       {[
