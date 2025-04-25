@@ -373,7 +373,7 @@ function HomePage() {
     timeline.to(
       endLogoRef.current,
       {
-        y: "36vh",
+        y: "60vh",
         duration: 0.07,
         ease: "sine.in",
       },
@@ -696,7 +696,7 @@ function HomePage() {
       </div>
       <img
         ref={endLogoRef}
-        className="fixed -top-[20vh] left-[26vw] max-w-[50vw] lg:max-w-[20vw] lg:left-[40vw]  lg:-top-[20vh] z-[50]"
+        className="fixed -top-[40vh] left-[26vw] max-w-[50vw] lg:max-w-[20vw] lg:left-[40vw]  lg:-top-[40vh] z-[50]"
         src={logocolImage}
       ></img>
 
