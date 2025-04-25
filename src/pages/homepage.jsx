@@ -20,7 +20,7 @@ import Navbar from "../components/navbar";
 import Card from "../components/card";
 import CoverflowSwiper from "../components/carousel";
 import video from "../assets/bgvideo.mp4";
-import { Facebook, Instagram, Youtube } from "lucide-react";
+import { Instagram, Linkedin, Youtube } from "lucide-react";
 import goal from "../../public/images/infocard/goal.png";
 import inflation from "../../public/images/infocard/inflation.png";
 import assets from "../../public/images/infocard/assets.png";
@@ -722,15 +722,27 @@ function HomePage() {
           © 2015 - 2024 readywealth. Designed and developed by readywealth
         </p>
         <div className="flex gap-8 ">
-          <div className="lg:min-w-[64px] lg:min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-2 lg:p-3">
+          <a
+            href="https://www.instagram.com/investors_run_pune"
+            target="_blank"
+            className="lg:min-w-[64px] lg:min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-2 lg:p-3"
+          >
             <Instagram className="max-w-[27px] max-h-[27px] " color="white" />
-          </div>
-          <div className="lg:min-w-[64px] lg:min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-2 lg:p-3">
+          </a>
+          <a
+            href="https://www.youtube.com/@ReadyWealth/videos"
+            target="_blank"
+            className="lg:min-w-[64px] lg:min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-2 lg:p-3"
+          >
             <Youtube className="max-w-[27px] max-h-[27px] " color="white" />
-          </div>
-          <div className="lg:min-w-[64px] lg:min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-2 lg:p-3">
-            <Facebook className="max-w-[27px] max-h-[27px] " color="white" />
-          </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/ready-wealth/"
+            target="_blank"
+            className="lg:min-w-[64px] lg:min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-2 lg:p-3"
+          >
+            <Linkedin className="max-w-[27px] max-h-[27px] " color="white" />
+          </a>
         </div>
       </div>
     </div>
