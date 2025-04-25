@@ -6,7 +6,6 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import playercardbg from "../../public/images/playercardbg.png";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { players } from "../pages/player_detail_page";
 
@@ -101,10 +100,6 @@ const CoverflowSwiper = ({ cards = [], className = "", loop = true }) => {
                 // to="/detail"
                 className="min-h-[42.2vh]  min-w-full flex h-full w-full grow-0  relative bg-[radial-gradient(circle,_#375FFF,_#22388D)]"
               >
-                {/* <img
-                  className="w-full h-full absolute object-contain "
-                  src={playercardbg}
-                ></img> */}
                 <img
                   className="w-full h-full absolute object-contain top-[10vh] "
                   src={card.img}
@@ -112,13 +107,12 @@ const CoverflowSwiper = ({ cards = [], className = "", loop = true }) => {
                 <text className="top-[5vh] left-[2vw] absolute object-contain font-black text-5xl text-white">
                   {card.name}
                 </text>
-                <div className="text-black absolute right-[3vw] top-[3vh] cursor-pointer">
+                <div className="text-black absolute w-full h-full max-w-[20%]  max-h-[20%] right-[3vw] top-[3vh] cursor-pointer ">
                   <svg
-                    width="108"
-                    height="108"
                     viewBox="0 0 108 108"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    className=""
                   >
                     <g filter="url(#filter0_di_815_13528)">
                       <rect
