@@ -283,7 +283,7 @@ function HomePage() {
     timeline.to(
       spinwheelref.current,
       {
-        y: "-100vh",
+        y: "-110%",
         scale: 1,
         opacity: 1,
         duration: 0.05,
@@ -348,7 +348,7 @@ function HomePage() {
     timeline.to(
       spinwheelref.current,
       {
-        y: "-320vh",
+        y: "-620%",
         scale: 3,
         duration: 0.1,
         ease: "sine.in",
@@ -445,6 +445,7 @@ function HomePage() {
       />
 
       <a
+        ref={downloadRef}
         className="cursor-pointer z-0"
         target="_blank"
         href="https://play.google.com/store/apps/details?id=com.readywealth.investorsrunpune"
@@ -682,7 +683,7 @@ function HomePage() {
       />
       <div
         ref={spinwheelref}
-        className="fixed w-full aspect-square flex items-center justify-center -bottom-[120vh]  lg:-bottom-[130vh] lg:max-w-[40vw]  lg:left-[30vw] -left-[1vw] z-[40]"
+        className="fixed w-full aspect-square flex items-center justify-center -bottom-[100%]  lg:-bottom-[140%] xl:-bottom-[110%] lg:max-w-[40vw]  lg:left-[30vw] -left-[1vw] z-[40]"
       >
         <img ref={wheelref} className="absolute inset-0" src={Wheel}></img>
         <img
@@ -715,19 +716,19 @@ function HomePage() {
       </a>
       <div
         ref={footerRef}
-        className="lg:p-6 p-2 rounded-2xl flex lg:flex-row flex-col fixed w-full bg-[#375FFF] -bottom-[30vh] left-[5vw] max-w-[90vw]  items-center justify-between z-[50]"
+        className="lg:p-6 p-2 rounded-2xl flex lg:flex-row flex-col fixed w-full bg-[#375FFF] -bottom-[30vh] left-[5vw] max-w-[90vw]  items-center justify-between z-[50] gap-4"
       >
         <p className="text-white lg:text-2xl font-light text-xs text-center lg:text-start">
           © 2015 - 2024 readywealth. Designed and developed by readywealth
         </p>
         <div className="flex gap-8 ">
-          <div className="min-w-[64px] min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-3">
+          <div className="lg:min-w-[64px] lg:min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-2 lg:p-3">
             <Instagram className="max-w-[27px] max-h-[27px] " color="white" />
           </div>
-          <div className="min-w-[64px] min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-3">
+          <div className="lg:min-w-[64px] lg:min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-2 lg:p-3">
             <Youtube className="max-w-[27px] max-h-[27px] " color="white" />
           </div>
-          <div className="min-w-[64px] min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-3">
+          <div className="lg:min-w-[64px] lg:min-h-[64px] w-full h-full aspect-square flex items-center justify-center rounded-full border-2 border-white/20 p-2 lg:p-3">
             <Facebook className="max-w-[27px] max-h-[27px] " color="white" />
           </div>
         </div>

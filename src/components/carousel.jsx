@@ -91,7 +91,7 @@ const CoverflowSwiper = ({ cards = [], className = "", loop = true }) => {
         {players.map((card, index) => (
           <SwiperSlide
             key={index}
-            className=" !w-[350px] md:!w-[400px] lg:!w-[450px] !h-auto"
+            className=" !w-full min-w-[50px] md:!w-[400px] lg:!w-[450px] !h-auto"
           >
             <div className="overflow-hidden cursor-pointer rounded-xl shadow-lg transition-transform duration-300 hover:scale-105 relative h-full w-full z-1000">
               <button
