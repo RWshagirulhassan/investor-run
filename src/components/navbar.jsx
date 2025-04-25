@@ -44,7 +44,7 @@ export default function Navbar() {
           How to Play
         </text>
         <text
-          onClick={() => scrollToProgress(0.52)}
+          onClick={() => scrollToProgress(0.55)}
           style={{
             color: "#375FFF",
             textShadow: `
