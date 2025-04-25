@@ -166,7 +166,7 @@ function HomePage() {
         // rotate: 360, // or "30deg"
         transformOrigin: "50% 50%",
         force3D: true,
-        y: "-15vh",
+        y: "80%",
         opacity: 1,
         duration: 0.01,
       },
@@ -241,7 +241,7 @@ function HomePage() {
     timeline.to(
       rollerRef.current,
       {
-        y: "50vh",
+        y: "100vh",
         opacity: 0,
         duration: 0.05,
       },
@@ -503,7 +503,7 @@ function HomePage() {
         ref={rollerRef}
         src={rollerImage}
         alt="roller"
-        className="fixed lg:-bottom-[80vh] -bottom-[50vh]  lg:left-[20vw] -left-[20vw] max-w-[140vw] lg:max-w-[60vw] opacity-0 translate-y-full z-[20] !origin-center"
+        className="fixed lg:bottom-[20vh] bottom-[50vh]  lg:left-[20vw] -left-[20vw] max-w-[140vw] lg:max-w-[60vw] opacity-0 translate-y-full z-[20] !origin-center"
       />
 
       {[

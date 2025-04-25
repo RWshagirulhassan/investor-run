@@ -106,7 +106,7 @@ const CoverflowSwiper = ({ cards = [], className = "", loop = true }) => {
                   src={playercardbg}
                 ></img> */}
                 <img
-                  className="w-full h-full absolute object-contain top-[10vh]"
+                  className="w-full h-full absolute object-contain top-[10vh] "
                   src={card.img}
                 ></img>
                 <text className="top-[5vh] left-[2vw] absolute object-contain font-black text-5xl text-white">
