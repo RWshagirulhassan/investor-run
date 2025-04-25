@@ -503,7 +503,7 @@ function HomePage() {
         ref={rollerRef}
         src={rollerImage}
         alt="roller"
-        className="fixed lg:bottom-[20vh] bottom-[50vh]  lg:left-[20vw] -left-[20vw] max-w-[140vw] lg:max-w-[60vw] opacity-0 translate-y-full z-[20] !origin-center"
+        className="fixed lg:bottom-[20vh] bottom-[20vh]  lg:left-[20vw] -left-[20vw] max-w-[140vw] lg:max-w-[60vw] opacity-0 translate-y-full z-[20] !origin-center"
       />
 
       {[
@@ -574,7 +574,7 @@ function HomePage() {
           {/* lg:left-[26vw]  left-[15vw] */}
           <Card
             backgroundColor={card.color}
-            className="  lg:max-w-[800px] max-w-[70vw] border-[#13286a] rounded-3xl min-h-[50vh] lg:min-h-[30vh] "
+            className="  lg:max-w-[800px] w-full min-w-[80vw] lg:min-w-[30vw] max-w-[90vw] border-[#13286a] rounded-3xl min-h-[50vh] lg:min-h-[30vh] "
             shadowColor="#2a5cbc"
             Children={
               <div className="w-full flex flex-col py-[1vh] justify-center  gap-[2vh] items-center">
