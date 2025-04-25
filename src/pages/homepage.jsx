@@ -424,7 +424,7 @@ function HomePage() {
         type="video/mp4"
         muted
         preload="auto"
-        className="lg:fixed  lg:block hidden bottom-0 left-0 w-full   h-full lg:object-cover object-contain -z-10"
+        className="lg:fixed  lg:block hidden bottom-0 left-0 w-full   h-full lg:object-cover object-contain -z-10 transform-gpu will-change-transform"
       />
 
       <img
