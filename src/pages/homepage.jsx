@@ -684,7 +684,7 @@ function HomePage() {
       />
       <div
         ref={spinwheelref}
-        className="fixed w-full aspect-square flex items-center justify-center -bottom-[80%]  lg:-bottom-[140%] xl:-bottom-[110%] lg:max-w-[40vw]  lg:left-[30vw] -left-[1vw] z-[40]"
+        className="fixed -left-[1vw] w-full aspect-square flex items-center justify-center -bottom-[80%]  lg:-bottom-[125vh] lg:max-w-[40vw]  lg:left-[30vw]  z-[40]"
       >
         <img ref={wheelref} className="absolute inset-0" src={Wheel}></img>
         <img
