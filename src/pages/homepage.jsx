@@ -504,7 +504,7 @@ function HomePage() {
         ref={rollerRef}
         src={rollerImage}
         alt="roller"
-        className="fixed lg:-bottom-[90%] -bottom-[50%]  md:left-[30vw] xl:max-w-[60vw] xl:left-[20vw] lg:max-w-[50vw] lg:left-[25vw]   -left-[20vw] max-w-[140vw] md:max-w-[40vw]  opacity-0 translate-y-full z-[20] !origin-center"
+        className="fixed -bottom-[50%] max-w-[140vw] -left-[20vw]   lg:-bottom-[110%]  lg:max-w-[50vw] lg:left-[25vw]   xl:-bottom-[90%]  xl:max-w-[60vw]    xl:left-[20vw]      opacity-0 translate-y-full z-[20] !origin-center"
       />
       {/* lg:max-w-[60vw] lg:left-[20vw] */}
 
