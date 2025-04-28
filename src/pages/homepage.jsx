@@ -504,9 +504,9 @@ function HomePage() {
         ref={rollerRef}
         src={rollerImage}
         alt="roller"
-        className="fixed -bottom-[50%] max-w-[140vw] -left-[20vw]   lg:-bottom-[110%]  lg:max-w-[50vw] lg:left-[25vw]   xl:-bottom-[90%]  xl:max-w-[60vw]    xl:left-[20vw]      opacity-0 translate-y-full z-[20] !origin-center"
+        className="fixed -bottom-[50%] max-w-[140vw] -left-[20vw]   lg:top-[75vh]  lg:max-w-[40vw] lg:left-[30vw]      opacity-0 translate-y-full z-[20] !origin-center"
       />
-      {/* lg:max-w-[60vw] lg:left-[20vw] */}
+      {/* xl:-bottom-[90%]  xl:max-w-[60vw]    xl:left-[20vw]  */}
 
       {[
         {
